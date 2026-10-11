@@ -1,0 +1,30 @@
+---
+description: Core rules for Next.js, TypeScript, Tailwind CSS, Sora font-family, and custom agent skills
+globs:
+  - "**/*.ts"
+  - "**/*.tsx"
+  - "**/*.js"
+  - "**/*.jsx"
+alwaysApply: true
+---
+
+## Agent Skills Integration
+- **Context Reference:** Always leverage the knowledge bases located in `.agents/skills/`.
+- Prioritize design patterns defined in `web-design-guidelines`.
+- Adhere strictly to the practices outlined in `vercel-react-best-practices`.
+- Use syntax rules and utilities documented in `tailwind-4-docs`.
+
+## Tech Stack & Architecture
+- Use **Next.js 14+ App Router** conventions (Server Components by default).
+- Implement strictly typed **TypeScript** interfaces and props; avoid `any`.
+- Utilize **Tailwind CSS** for all component styling, leveraging modern utility classes.
+
+## Code Standards
+- **Components:** Functional components with descriptive, named exports.
+- **Data Fetching:** Fetch data in Server Components where possible; use `async/await`.
+- **State Management:** Use standard React hooks (`useState`, `useActionState`) only in Client Components (`'use client'`).
+
+## UI & Design Rules
+- Follow mobile-first responsive design (`sm:`, `md:`, `lg:`).
+- Maintain consistent spacing using Tailwind's spacing scale (e.g., `p-4`, `space-y-6`).
+- Ensure accessible, semantic HTML tags (`<main>`, `<section>`, `<article>`).
