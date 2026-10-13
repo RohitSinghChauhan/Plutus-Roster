@@ -51,7 +51,7 @@ export function MemberCard({ member, index }: MemberCardProps) {
         </h3>
       </div>
 
-      <div className="flex flex-1 flex-col gap-3 border-l-4 border-bni px-5 py-5">
+      {/* <div className="flex flex-1 flex-col gap-3 border-l-4 border-bni px-5 py-5">
         <p className="text-sm text-ink/70">{member.category}</p>
         <p className="flex items-start gap-2 text-sm font-semibold text-ink">
           <Building className="mt-0.5 size-4 shrink-0 text-bni" aria-hidden="true" />
@@ -100,7 +100,7 @@ export function MemberCard({ member, index }: MemberCardProps) {
             className="object-contain p-3"
           />
         </div>
-      </div>
+      </div> */}
     </motion.article>
   );
 }

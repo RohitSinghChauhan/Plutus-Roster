@@ -13,7 +13,7 @@ const navIcons: Record<NavHref, LucideIcon> = {
   "/executive-director": Crown,
   "/area-director": MapPinned,
   "/support-team": Headset,
-  "/lt-7": BadgeCheck,
+  "/lt-8": BadgeCheck,
 };
 
 export function SiteHeader() {

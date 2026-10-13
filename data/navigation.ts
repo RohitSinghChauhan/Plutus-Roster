@@ -15,9 +15,9 @@ export const navItems = [
     shortLabel: "Support",
   },
   {
-    href: "/lt-7",
-    label: "LT-7",
-    shortLabel: "LT-7",
+    href: "/lt-8",
+    label: "LT-8",
+    shortLabel: "LT-8",
   },
 ] as const;
 

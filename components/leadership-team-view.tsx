@@ -1,12 +1,12 @@
 import Image from "next/image";
-import { leadershipTeam } from "@/data/lt-7";
+import { leadershipTeam } from "@/data/lt-8";
 import { PageBanner } from "@/components/page-banner";
 import { Reveal } from "@/components/reveal";
 
 export function LeadershipTeamView() {
   return (
     <>
-      <PageBanner title="Leadership Team 7" kicker="Our Team" />
+      <PageBanner title="Leadership Team 8" kicker="Our Team" />
       <section className="mx-auto max-w-6xl px-5 py-12 sm:px-6 lg:px-8 lg:py-16">
         <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {leadershipTeam.map((leader, index) => (
@@ -19,7 +19,7 @@ export function LeadershipTeamView() {
                       alt={leader.name}
                       fill
                       sizes="(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 100vw"
-                      className="object-contain object-bottom"
+                      className="object-cover object-bottom"
                     />
                   </div>
                   <div className="border-t-4 border-bni px-5 py-5 text-center">

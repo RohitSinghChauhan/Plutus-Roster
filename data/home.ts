@@ -82,7 +82,7 @@ const roster: readonly MemberSource[] = [
     socials: ["instagram", "facebook", "youtube"],
   },
   {
-    name: "Chirag",
+    name: "Chirag Luhar",
     category: "Digital Marketing",
     company: "Northstar Media",
     photo: "/assets/PNGs/Chirag.png",
@@ -98,7 +98,7 @@ const roster: readonly MemberSource[] = [
     socials: ["instagram", "facebook"],
   },
   {
-    name: "Dr. Ankita",
+    name: "Dr. Ankita Sirohiya",
     category: "Dentist",
     company: "Smile Clinic",
     photo: "/assets/PNGs/Dr Ankita.png",
@@ -162,7 +162,7 @@ const roster: readonly MemberSource[] = [
     socials: ["instagram", "website"],
   },
   {
-    name: "Megha",
+    name: "Megha Malhotra Soni",
     category: "Travel Consultant",
     company: "Open Route Travels",
     photo: "/assets/PNGs/Megha copy.png",
@@ -186,7 +186,7 @@ const roster: readonly MemberSource[] = [
     socials: ["instagram", "linkedin"],
   },
   {
-    name: "Niket",
+    name: "Niket Mistry",
     category: "Printing & Packaging",
     company: "Pressline",
     photo: "/assets/PNGs/Nikte copy.png",
@@ -226,7 +226,7 @@ const roster: readonly MemberSource[] = [
     socials: ["linkedin", "website"],
   },
   {
-    name: "Raj",
+    name: "Raj Thakker",
     category: "Business Coach",
     company: "Next Seat Coaching",
     photo: "/assets/PNGs/Raj.png",
@@ -242,7 +242,7 @@ const roster: readonly MemberSource[] = [
     socials: ["facebook", "website"],
   },
   {
-    name: "Rohan",
+    name: "Rohan Rajkumar",
     category: "Furniture",
     company: "Rohan Living",
     photo: "/assets/PNGs/Rohan.png",

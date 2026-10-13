@@ -8,10 +8,10 @@ export type SupportMember = {
 
 export const supportTeam: readonly SupportMember[] = [
   {
-    id: "nilay-shah",
-    name: "Nilay Shah",
-    role: "Senior Support Director",
-    photo: "/assets/hercules/support-1.png",
+    id: "oorvaksh-medora",
+    name: "Oorvaksh Medora",
+    role: "Sr. Support Director",
+    photo: "/assets/hercules/support-placeholder-image.jpg",
     message: [
       "Dear BNI,",
       "A chapter grows when its members feel supported before they ever need to ask. I am here to keep that path clear, so each of you can focus on showing up and giving.",
@@ -20,10 +20,10 @@ export const supportTeam: readonly SupportMember[] = [
     ],
   },
   {
-    id: "amit-bharadva",
-    name: "Amit Bharadva",
+    id: "sagar-vora",
+    name: "Sagar Vora",
     role: "Support Director",
-    photo: "/assets/hercules/support-2.jpg",
+    photo: "/assets/hercules/support-placeholder-image.jpg",
     message: [
       "Dear BNI,",
       "I am glad to stand with this chapter as Support Director. The work is simple to name and serious to do: help members follow through, and look for the next person you can help.",
@@ -32,10 +32,10 @@ export const supportTeam: readonly SupportMember[] = [
     ],
   },
   {
-    id: "arpita-shah",
-    name: "Arpita Shah",
+    id: "abhishek-shah",
+    name: "Abhishek Shah",
     role: "Support Ambassador",
-    photo: "/assets/hercules/support-3.jpg",
+    photo: "/assets/hercules/support-placeholder-image.jpg",
     message: [
       "Dear BNI,",
       "BNI is journey where you might be part of certain processes. These processes will lead you to the new doors in your personal and professional life. These new doors will come up with new opportunities in your respective industries.",
