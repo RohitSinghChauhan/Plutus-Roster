@@ -17,11 +17,11 @@ function DirectoryFallback() {
   return (
     <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
       <div className="h-8 w-56 animate-pulse rounded-full bg-black/10" />
-      <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
+      <div className="mx-auto mt-10 flex w-full max-w-md flex-col gap-6 sm:max-w-lg">
         {skeletonKeys.map((key) => (
           <div
             key={key}
-            className="aspect-[3/4] animate-pulse rounded-3xl bg-white"
+            className="aspect-[3/4] w-full animate-pulse rounded-3xl bg-white sm:aspect-[4/5]"
           />
         ))}
       </div>

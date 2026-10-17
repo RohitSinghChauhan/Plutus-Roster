@@ -37,12 +37,12 @@ export function MemberCard({ member, index }: MemberCardProps) {
         ease: [0.22, 1, 0.36, 1],
       }}
     >
-      <div className="relative aspect-[4/5] bg-[#f3f0ee]">
+      <div className="relative aspect-[3/4] w-full bg-[#f3f0ee] sm:aspect-[4/5]">
         <Image
           src={member.photo}
           alt={member.name}
           fill
-          sizes="(min-width: 1280px) 30vw, (min-width: 768px) 45vw, 100vw"
+          sizes="(min-width: 640px) 32rem, 100vw"
           className="object-contain object-bottom"
           priority={index < 2}
         />

@@ -45,11 +45,11 @@ export function MemberDirectory() {
       </Reveal>
 
       {visible.length > 0 ? (
-        <ul className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
+        <ul className="mx-auto mt-10 flex w-full max-w-md flex-col gap-6 sm:max-w-lg">
           {visible.map((member, index) => (
             <li
               key={member.id}
-              className="[content-visibility:auto] [contain-intrinsic-size:auto_680px]"
+              className="w-full [content-visibility:auto] [contain-intrinsic-size:auto_520px]"
             >
               <MemberCard member={member} index={index} />
             </li>
