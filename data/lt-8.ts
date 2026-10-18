@@ -22,6 +22,6 @@ export const leadershipTeam: readonly Leader[] = [
     id: "hitesh-nagar",
     name: "Hitesh Nagar",
     role: "Secretary Treasurer",
-    image: "/assets/PNGs/Hitesh Nagar .png",
+    image: "/assets/PNGs/Hitesh Nagar copy.png",
   },
 ];
