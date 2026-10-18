@@ -10,18 +10,18 @@ export const leadershipTeam: readonly Leader[] = [
     id: "meet-patel",
     name: "Meet Patel",
     role: "President",
-    image: "/assets/hercules/support-placeholder-image.jpg",
+    image: "/assets/PNGs/Meet Patel.png",
   },
   {
     id: "kunal-sharma",
     name: "Kunal Sharma",
     role: "Vice President",
-    image: "/assets/hercules/support-placeholder-image.jpg",
+    image: "/assets/PNGs/Kunal Sharma.png",
   },
   {
     id: "hitesh-nagar",
     name: "Hitesh Nagar",
     role: "Secretary Treasurer",
-    image: "/assets/hercules/support-placeholder-image.jpg",
+    image: "/assets/PNGs/Hitesh Nagar .png",
   },
 ];
